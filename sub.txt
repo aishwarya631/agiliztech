@@ -1,0 +1,3 @@
+int i, fact;
+while<n>0)
+fact=fact*i;
