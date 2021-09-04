@@ -55,12 +55,14 @@ public class Assignmentuser {
 						System.out.println("Given phone number is invalid,please enter valid phone number");
 						continue;
 					}
-					if (length < 10) {
-						valid = true;
+					if (length > 10) {
+						valid = false;
 						System.out.println("Given phone number is invalid,please enter valid phone number");
 						continue;
+					}else {
+						valid=true;
 					}
-				} while (!valid);
+				} while (!valid); 
 
 				System.out.println("enter your fullname ");
 				String fullname = sc.next();
